@@ -10,7 +10,7 @@
     </parameters>
 
     <services>
-        <service id="dubture_ffmpeg.ffmpeg" class="%dubture_ffmpeg.ffmpeg.class%">
+        <service id="dubture_ffmpeg.ffmpeg" class="%dubture_ffmpeg.ffmpeg.class%" scope="prototype">
         	<argument>%dubture_ffmpeg.binary%</argument>
             <argument type="service" id="logger" />
         </service>
