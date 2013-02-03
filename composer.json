@@ -4,8 +4,14 @@
     "keywords": ["ffmpeg", "multimedia"],
     "license": "MIT",
     "type": "symfony-bundle",
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pulse00/PHP-FFmpeg.git"
+        }
+    ], 
     "require": {
-        "php-ffmpeg/php-ffmpeg": "0.2.*"
+        "php-ffmpeg/php-ffmpeg": "dev-timeout-patch"
     },
     "minimum-stability": "dev",
     "authors": [
